@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Tank.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Turret.uasset"
+			]
+		}
+	]
+}
