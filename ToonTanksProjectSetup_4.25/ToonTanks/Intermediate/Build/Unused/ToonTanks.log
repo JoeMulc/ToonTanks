@@ -13,22 +13,24 @@ UnrealBuildTool : warning : Unable to find Visual Studio SDK. Editor integration
   [Upgrade]
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 4.46 GB available: limiting max parallel actions to 2
-  Building 13 actions with 2 processes...
-  [1/13] Resource Default.rc2
-  [2/13] Compile [x64] SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp
-  [3/13] Compile [x64] ToonTanks.cpp
-  [4/13] Compile [x64] BasePawn.gen.cpp
-  [5/13] Compile [x64] TankPawn.gen.cpp
-  [6/13] Compile [x64] TankPawn.cpp
-  [7/13] Compile [x64] TowerPawn.cpp
-  [8/13] Compile [x64] TowerPawn.gen.cpp
-  [9/13] Compile [x64] ToonTanks.init.gen.cpp
-  [10/13] Compile [x64] BasePawn.cpp
-  [11/13] Link [x64] UnrealEditor-ToonTanks.lib
+    Requested 1.5 GB free memory per action, 5.89 GB available: limiting max parallel actions to 3
+  Building 15 actions with 3 processes...
+  [1/15] Resource Default.rc2
+  [2/15] Compile [x64] SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp
+  [3/15] Compile [x64] ToonTanks.cpp
+  [4/15] Compile [x64] ToonTanks.init.gen.cpp
+  [5/15] Compile [x64] TowerPawn.gen.cpp
+  [6/15] Compile [x64] BasePawn.gen.cpp
+  [7/15] Compile [x64] Projectile.cpp
+  [8/15] Compile [x64] TankPawn.gen.cpp
+  [9/15] Compile [x64] Projectile.gen.cpp
+  [10/15] Compile [x64] TankPawn.cpp
+  [11/15] Compile [x64] BasePawn.cpp
+  [12/15] Compile [x64] TowerPawn.cpp
+  [13/15] Link [x64] UnrealEditor-ToonTanks.lib
      Creating library D:\Unreal\ToonTanks\ToonTanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks.lib and object D:\Unreal\ToonTanks\ToonTanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks.exp
-  [12/13] Link [x64] UnrealEditor-ToonTanks.dll
+  [14/15] Link [x64] UnrealEditor-ToonTanks.dll
      Creating library D:\Unreal\ToonTanks\ToonTanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks.suppressed.lib and object D:\Unreal\ToonTanks\ToonTanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks.suppressed.exp
-  [13/13] WriteMetadata ToonTanksEditor.target
-  Total time in Parallel executor: 131.28 seconds
-  Total execution time: 135.22 seconds
+  [15/15] WriteMetadata ToonTanksEditor.target
+  Total time in Parallel executor: 52.00 seconds
+  Total execution time: 88.94 seconds

@@ -24,6 +24,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true")) USceneComponent* projectileSpawnPoint;
 
+
+	UPROPERTY(EditAnywhere, Category = "Components") TSubclassOf<class AProjectile> projectileClass;
+
 protected:
 
 	void RotateTurret(FVector target);

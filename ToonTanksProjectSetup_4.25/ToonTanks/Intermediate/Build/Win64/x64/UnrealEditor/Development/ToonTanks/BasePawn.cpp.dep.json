@@ -21,7 +21,9 @@
             "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
             "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
-            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "d:\\unreal\\toontanks\\toontanks\\toontanksprojectsetup_4.25\\toontanks\\source\\toontanks\\projectile.h",
+            "d:\\unreal\\toontanks\\toontanks\\toontanksprojectsetup_4.25\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\uht\\projectile.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
