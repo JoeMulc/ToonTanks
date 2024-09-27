@@ -4,6 +4,7 @@
 #include "BasePawn.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -20,8 +21,8 @@ ABasePawn::ABasePawn()
 	TurretMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Turret Mesh"));
 	TurretMesh->SetupAttachment(BaseMesh);
 
-	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
-	ProjectileSpawnPoint->SetupAttachment(TurretMesh);
+	projectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
+	projectileSpawnPoint->SetupAttachment(TurretMesh);
 }
 
 void  ABasePawn::RotateTurret(FVector target)
@@ -35,4 +36,18 @@ void  ABasePawn::RotateTurret(FVector target)
 			targetRotation, 
 			UGameplayStatics::GetWorldDeltaSeconds(this), 
 			25.f));
+}
+
+void  ABasePawn::Fire()
+{
+	FVector projectileSpawnPointLocation = projectileSpawnPoint->GetComponentLocation();
+	DrawDebugSphere(
+		GetWorld(),
+		projectileSpawnPointLocation,
+		25.f,
+		12,
+		FColor::Red,
+		false,
+		3.f
+	);
 }

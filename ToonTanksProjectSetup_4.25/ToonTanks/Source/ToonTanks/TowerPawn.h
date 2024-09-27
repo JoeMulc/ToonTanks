@@ -16,5 +16,21 @@ class TOONTANKS_API ATowerPawn : public ABasePawn
 
 public:
 	virtual  void  Tick(float  deltaTime);
+
+protected:
+
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 	
+
+	class ATankPawn* tankRef;
+
+	UPROPERTY(EditAnywhere, Category = "TurretStats", meta = (AllowPrivateAccess = "true")) float turretRange = 1000.f;
+	UPROPERTY(EditAnywhere, Category = "TurretStats", meta = (AllowPrivateAccess = "true"))  float  fireRate =  2.f;
+
+	FTimerHandle fireRateTimerHandle;
+	
+	void CheckFireCondition();
+
+	bool CheckDistance();
 };

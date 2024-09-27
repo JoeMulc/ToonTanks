@@ -11,7 +11,17 @@
             "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
             "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
             "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
-            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h"
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "d:\\apps\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "d:\\apps\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

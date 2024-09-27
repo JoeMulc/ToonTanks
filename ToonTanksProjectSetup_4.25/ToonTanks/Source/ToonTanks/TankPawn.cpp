@@ -24,6 +24,8 @@ void ATankPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ATankPawn::Move);
 
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATankPawn::Turn);
+
+	PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATankPawn::Fire);
 }
 
 void ATankPawn::BeginPlay()
@@ -67,3 +69,4 @@ void ATankPawn::Turn(float value)
 	AddActorLocalRotation(deltaRotation, true);
 
 }
+

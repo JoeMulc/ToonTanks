@@ -7,7 +7,8 @@
 			"files": [
 				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap",
 				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Tank.uasset",
-				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Turret.uasset"
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Turret.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset"
 			]
 		}
 	]
