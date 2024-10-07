@@ -21,6 +21,12 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+	void HandleDestruction();
+
+	APlayerController* GetPlayerController() const { return playerControllerRef;}
+
+	bool bAlive = true;
+
 protected:
 
 	// Called when the game starts or when spawned
@@ -39,5 +45,6 @@ protected:
 	void Turn(float value);
 
 	APlayerController* playerControllerRef;
+
 
 };

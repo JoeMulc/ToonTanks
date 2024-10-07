@@ -51,6 +51,15 @@ void ATankPawn::Tick(float DeltaTime)
 
 }
 
+void ATankPawn::HandleDestruction()
+{
+	Super::HandleDestruction();
+	SetActorHiddenInGame(true);
+	SetActorTickEnabled(false);
+
+	bAlive = false;
+}
+
 
 void  ATankPawn::Move(float value)
 {
@@ -69,4 +78,3 @@ void ATankPawn::Turn(float value)
 	AddActorLocalRotation(deltaRotation, true);
 
 }
-

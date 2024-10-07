@@ -8,7 +8,14 @@
 				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap",
 				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Tank.uasset",
 				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_Turret.uasset",
-				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset"
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Gamemode/BP_ToonTanksGameMode.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Gamemode/BP_ToonTanksPlayerController.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Widgets/WBP_StartGameWidget.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Widgets/WBP_EndGameWidget.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset",
+				"D:/Unreal/ToonTanks/ToonTanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/BP_ToonTanksPlayerController.uasset"
 			]
 		}
 	]

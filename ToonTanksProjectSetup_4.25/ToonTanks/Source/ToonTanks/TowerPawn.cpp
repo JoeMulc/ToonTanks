@@ -16,6 +16,12 @@ void ATowerPawn::Tick(float deltaTime)
 	}
 }
 
+void ATowerPawn::HandleDestruction()
+{
+	Super::HandleDestruction();
+	Destroy();
+}
+
 void ATowerPawn::BeginPlay() 
 {
 	Super::BeginPlay();
@@ -27,7 +33,11 @@ void ATowerPawn::BeginPlay()
 
 void ATowerPawn::CheckFireCondition()
 {
-	if (CheckDistance())
+	if (tankRef == nullptr)
+	{
+		return;
+	}
+	if (CheckDistance() && tankRef->bAlive)
 	{
 		Fire();
 	}
